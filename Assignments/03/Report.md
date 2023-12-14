@@ -15,8 +15,8 @@ network tab of the developer tools.
 
 ### Review
 
-    The first attempt was simply to get the server to thread and see how much it would change, however, as the instructions may have implied, there was usually almost no change, I have no clue as to if there was an anomally getting a 5 second difference a few times. 
-    After this I tried to create a ring buffer consumer/producer system, with the help of internet tutorials, and I only got so far before this error began to plague me:
+The first attempt was simply to get the server to thread and see how much it would change, however, as the instructions may have implied, there was usually almost no change, I have no clue as to if there was an anomally getting a 5 second difference a few times. 
+After this I tried to create a ring buffer consumer/producer system, with the help of internet tutorials, and I only got so far before this error began to plague me:
 
 [Connection.h:63] bytesRead = ::recv(_client, &data[bytesRead], bufferSize, 0) failed: Bad file descriptor
 
